@@ -692,6 +692,7 @@ $ ./iftest.sh
 ## OUTPUT
 
 <img width="617" height="171" alt="Screenshot 2026-07-28 234152" src="https://github.com/user-attachments/assets/00989b10-cf72-420b-9359-32dad5aff2f5" />
+<img width="377" height="135" alt="Screenshot 2026-07-28 234419 - Copy" src="https://github.com/user-attachments/assets/a41afcf1-1443-4cc6-861d-117a8142f9d6" />
 
 # check if a file
 cat > ifnested.sh 
