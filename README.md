@@ -54,13 +54,13 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- <img width="350" height="82" alt="Screenshot 2026-07-28 224411" src="https://github.com/user-attachments/assets/0855de44-4c5d-4ca9-b04c-4954fefa424e" />
+<img width="350" height="82" alt="Screenshot 2026-07-28 224411" src="https://github.com/user-attachments/assets/0855de44-4c5d-4ca9-b04c-4954fefa424e" />
+
 comm file1 file2
- ## OUTPUT
+## OUTPUT
 <img width="350" height="212" alt="Screenshot 2026-07-28 224446" src="https://github.com/user-attachments/assets/2083f2b9-5ea7-4546-a58a-67c96b91a434" />
 
 
- 
 diff file1 file2
 ## OUTPUT
 <img width="322" height="275" alt="Screenshot 2026-07-28 224523" src="https://github.com/user-attachments/assets/89842616-0deb-4759-8b22-b74a4f6bd981" />
@@ -349,6 +349,7 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
 <img width="418" height="132" alt="Screenshot 2026-07-28 231053" src="https://github.com/user-attachments/assets/2516ea93-06ff-486a-bde6-8de427a591d1" />
 
 
@@ -360,7 +361,8 @@ cat > file21
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-``` 
+```
+
 sort file21
 ## OUTPUT
 <img width="336" height="172" alt="Screenshot 2026-07-28 231312" src="https://github.com/user-attachments/assets/6f1a5109-793a-45f5-a729-0fb7c8b6c6ac" />
@@ -374,7 +376,8 @@ cat > file22
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-``` 
+```
+
 uniq file22
 ## OUTPUT
 <img width="332" height="165" alt="Screenshot 2026-07-28 231356" src="https://github.com/user-attachments/assets/49f0a6e6-ad87-409a-8818-128dbfc7aafb" />
@@ -384,7 +387,7 @@ uniq file22
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
- ## OUTPUT
+## OUTPUT
 <img width="433" height="262" alt="Screenshot 2026-07-28 231424" src="https://github.com/user-attachments/assets/7f038e72-deb0-414a-9e35-836cf9bb99e7" />
 
 cat < urllist.txt
@@ -401,7 +404,7 @@ www. google. com
 www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
- ## OUTPUT
+## OUTPUT
 <img width="381" height="113" alt="Screenshot 2026-07-28 231536" src="https://github.com/user-attachments/assets/9cc4b229-6c0a-4fd7-8e42-3710aec1459d" />
 
 
@@ -452,6 +455,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+
 
  
 cat << stop > herecheck.txt
@@ -525,7 +529,7 @@ echo $?
 abcd
  
 echo $?
- ## OUTPUT
+## OUTPUT
 <img width="347" height="107" alt="Screenshot 2026-07-28 233459" src="https://github.com/user-attachments/assets/b226b3b5-1fa7-4d7a-9c34-1f0641909ae0" />
 <img width="317" height="77" alt="Screenshot 2026-07-28 233407" src="https://github.com/user-attachments/assets/f2e4f187-5f86-4618-9bf3-ed12011c7da9" />
 
