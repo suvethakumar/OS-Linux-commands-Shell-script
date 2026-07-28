@@ -468,7 +468,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-<img width="382" height="562" alt="Screenshot 2026-07-28 233112" src="https://github.com/user-attachments/assets/401df082-a76f-4a06-b015-d0484b30aac7" />
+
 <img width="305" height="127" alt="Screenshot 2026-07-28 233000" src="https://github.com/user-attachments/assets/d7f5939e-bb92-41e3-9ddb-125dc3038aea" />
 
 
@@ -530,7 +530,6 @@ abcd
  
 echo $?
 ## OUTPUT
-<img width="347" height="107" alt="Screenshot 2026-07-28 233459" src="https://github.com/user-attachments/assets/b226b3b5-1fa7-4d7a-9c34-1f0641909ae0" />
 <img width="317" height="77" alt="Screenshot 2026-07-28 233407" src="https://github.com/user-attachments/assets/f2e4f187-5f86-4618-9bf3-ed12011c7da9" />
 
 
@@ -568,7 +567,6 @@ fi
 
 
 chmod 755 strcomp.sh
- 
 ./strcomp.sh 
 ## OUTPUT
 <img width="347" height="107" alt="Screenshot 2026-07-28 233459" src="https://github.com/user-attachments/assets/6d5f0c72-65da-4cda-a28e-92c8e8546b73" />
@@ -643,9 +641,10 @@ else
 echo “Sorry, the object does not exist”
 fi
 ```
-
 ./ifnested.sh 
+
 ## OUTPUT
+
 <img width="617" height="171" alt="Screenshot 2026-07-28 234152" src="https://github.com/user-attachments/assets/8b33847c-2e36-400e-9b72-d743931deaaf" />
 
 
@@ -690,7 +689,8 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+
 <img width="617" height="171" alt="Screenshot 2026-07-28 234152" src="https://github.com/user-attachments/assets/00989b10-cf72-420b-9359-32dad5aff2f5" />
 
 # check if a file
@@ -740,7 +740,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+
 <img width="617" height="171" alt="Screenshot 2026-07-28 234152" src="https://github.com/user-attachments/assets/147cce38-8caa-4e21-a03f-cf4315d6a331" />
 
 # looking for a possible value using elif
