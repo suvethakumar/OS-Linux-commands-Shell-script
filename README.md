@@ -454,10 +454,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
 chmod 755 my-script.sh
 ./my-script.sh
-## OUTPUT
 
-
- 
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -690,8 +687,6 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ## OUTPUT
-
-<img width="617" height="171" alt="Screenshot 2026-07-28 234152" src="https://github.com/user-attachments/assets/00989b10-cf72-420b-9359-32dad5aff2f5" />
 <img width="377" height="135" alt="Screenshot 2026-07-28 234419 - Copy" src="https://github.com/user-attachments/assets/a41afcf1-1443-4cc6-861d-117a8142f9d6" />
 
 # check if a file
@@ -889,6 +884,7 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+## OUTPUT
 <img width="298" height="142" alt="Screenshot 2026-07-29 182955" src="https://github.com/user-attachments/assets/e232322e-dd2b-4622-878a-451562c5b9e4" />
 
 
@@ -917,12 +913,12 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
-
+cat forinfile.sh 
 ## OUTPUT
 <img width="331" height="217" alt="Screenshot 2026-07-29 182901" src="https://github.com/user-attachments/assets/ed31be27-4b23-48cc-b472-b22916a3063c" />
 
 
-cat forinfile.sh 
+
 ```bash
 #!/bin/bash
 # reading values from a file
@@ -945,8 +941,6 @@ Warangal
 Adilabad
 Bhadrachalam
 Khammam
-
-## OUTPUT
 
 
 cat forctype.sh 
@@ -1182,6 +1176,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+
  
 cat > palindrome.sh
 ```bash
